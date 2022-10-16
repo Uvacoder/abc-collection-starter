@@ -5,7 +5,7 @@
         "open-source",
         "productivity",
         "design",
-        "finance",
+        "collections",
         "ideas",
         "trends",
         "communication",
@@ -15,9 +15,9 @@
         "learning",
         "cryptocurrency"
       ],
-      "name": "Get Started with CuratedStack (No-Code) Template",
-      "description": "Create for free your own curated collection of websites for free",
-      "url": "https://github.com/sandoche/CuratedStack-nocode-template",
+      "name": "Alldevneeds",
+      "description": "A great curated collection of developer tools and more!",
+      "url": "https://github.com/uvacoder/abc-collection-starter",
       "icon": "/images/logos/icon.png"
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "categories_slugs": [
-        "finance"
+        "collections"
       ],
       "name": "Revenual",
       "description": "Aggregated sales reports for app makers",
@@ -221,7 +221,7 @@
         "open-source",
         "productivity",
         "design",
-        "finance",
+        "collections",
         "ideas",
         "trends",
         "communication",
@@ -231,9 +231,9 @@
         "learning",
         "cryptocurrency"
       ],
-      "name": "Create your own Curated Directory now",
-      "description": "Get started with the CuratedStack (No-Code) Template",
-      "url": "https://github.com/sandoche/CuratedStack-nocode-template",
+      "name": "Alldevneeds",
+      "description": "A curated collection of developer needs",
+      "url": "https://github.com/uvacoder/abc-collection-starter",
       "icon": "/images/logos/icon.png"
     }
   ]
