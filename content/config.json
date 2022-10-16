@@ -5,16 +5,5 @@
   "contact_link": "https://abclinks.vercel.app",
   "google_analytics": "G-QWW9YH0WM9",
   "hostname": "https://abc-collection-starter.vercel.app",
-  "icon": "/images/logos/icon.png",
-  "floatingPrompt": {
-    "width": "500px",
-    "left": "unset",
-    "bottom": "112px",
-    "name": "Allthedevneeds",
-    "text": "Right here you will find a curated list of all the resources you as a developer will need. 🚀",
-    "url": "https://abc-collection-starter.vercel.app",
-    "right": "32px",
-    "disabled": false,
-    "buttonText": "CuratedStack Template on Product Hunt"
-  }
+  "icon": "/images/logos/icon.png"
 }
