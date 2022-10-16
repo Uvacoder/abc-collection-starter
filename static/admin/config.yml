@@ -1,0 +1,122 @@
+backend:
+  name: git-gateway
+  branch: main
+  squash_merges: true
+
+media_folder: "static/images/logos"
+public_folder: "/images/logos"
+
+collections:
+  - label: "Categories"
+    name: "categories"
+    extension: "json"
+    files:
+      - label: "All categories"
+        name: "categories"
+        file: "content/categories.json"
+        fields:
+          - label: "Categories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - { label: Slug, name: slug, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Icon, name: icon, widget: text }
+  - label: "Links"
+    name: "links"
+    extension: "json"
+    files:
+      - label: "Links"
+        name: "links"
+        file: "content/links.json"
+        fields:
+          - label: "All links"
+            name: "links"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Url, name: url, widget: string }
+              - { label: Icon, name: icon, widget: image }
+              - {
+                  label: Categories slugs,
+                  name: categories_slugs,
+                  widget: list,
+                }
+  - label: "Config"
+    name: "config"
+    extension: "json"
+    files:
+      - label: "Main settings"
+        name: "config"
+        file: "content/config.json"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Short name, name: shortname, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { label: Url, name: contact_link, widget: string }
+          - { label: Google analytics tracking code, name: google_analytics, widget: string }
+          - { label: Hostname, name: hostname, widget: string }
+          - { label: Icon, name: icon, widget: image }
+          - label: Floating Prompt
+            name: floatingPrompt
+            widget: object
+            fields:
+              - { label: Disable Widget, name: "disabled", widget: "boolean", default: false}
+              - { label: Name, name: name, widget: string }
+              - { label: Url, name: url, widget: string }
+              - { label: Text, name: text, widget: string }
+              - { label: "Button's text", name: buttonText, widget: string }
+              - { label: Width, name: width, widget: string }
+              - { label: Bottom, name: bottom, widget: string }
+              - { label: Right, name: right, widget: string }
+              - { label: Left, name: left, widget: string }
+  - label: "Strings"
+    name: "strings"
+    extension: "json"
+    files:
+      - label: "English"
+        name: "english"
+        file: "locales/en.json"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - label: Tools section
+            name: tools
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+          - label: Footer section
+            name: footer
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Copyright, name: copyright, widget: string }
+              - label: Author
+                name: author
+                widget: object
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Website, name: website, widget: string }
+          - label: Buttons
+            name: buttons
+            widget: object
+            fields:
+              - label: Navigation
+                name: navigation
+                widget: object
+                fields:
+                  - { label: Back, name: back, widget: string }
+              - label: Footer
+                name: footer
+                widget: object
+                fields:
+                  - { label: Contact, name: contact, widget: string }
+          - label: Search bar
+            name: lunr-module
+            widget: object
+            fields:
+              - { label: Placeholder, name: placeholderText, widget: string }
