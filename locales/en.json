@@ -1,17 +1,17 @@
 {
-  "title": "CuratedStack (No-Code) Template",
-  "description": "Build a curated directory of websites without or with code",
+  "title": "Alldevneeds",
+  "description": "A great curated collection of developer needs",
   "tools": {
-    "title": "Tools & Resources",
-    "description": "Find the tool you need in each category"
+    "title": "Developer Needs",
+    "description": "Find all your developer needs"
   },
   "footer": {
     "title": "Any tool to suggest?",
     "description": "Any idea? Any amazing tool forgotten? Feel free to send it!",
-    "copyright": "Made with ❤️ in Europe 🇪🇺 by ",
+    "copyright": "Made with ❤️ in Virginia by ",
     "author": {
-      "name": "Sandoche",
-      "website": "https://www.sandoche.com"
+      "name": "uvacoder",
+      "website": "https://www.github.com/uvacoder"
     }
   },
   "buttons": {
