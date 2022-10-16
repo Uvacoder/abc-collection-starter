@@ -73,7 +73,7 @@ export default {
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
     'nuxtjs-darkmode-js-module',
-    'nuxt-floating-prompt-module',
+   
     [
       '@nuxtjs/google-gtag',
       {
@@ -145,9 +145,7 @@ export default {
     }
   },
 
-  floatingPrompt: config.floatingPrompt.disabled
-    ? false
-    : config.floatingPrompt,
+  
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {}
